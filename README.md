@@ -1,6 +1,6 @@
 # FiniteElementAndQuasicontinuumFracture
 
-This is a MATLAB implementation of static/dynamic 2D/3D finite element method (FEM) to exemplify my programming capability in computational solid mechanics.
+This is a MATLAB implementation of fundamental static/dynamic 2D/3D linear-elastic/neo-Hookean-hyperelastic finite element method (FEM).
 
 Additionally, this repository also attempts to reproduce the following models:
 
@@ -56,7 +56,9 @@ A 2D (plane stress) semicircle with a radius of 20, whose hat (height=5) is cut 
 
 <image src=".assets/Semisphere2D.png" width="40%"></image>
 
+https://github.com/LuoXueling/FiniteElementMethodAndQuasicontinuumFracture/assets/75973860/f0afec5e-5e20-413a-9461-a51e7b2e2013
 
+https://github.com/LuoXueling/FiniteElementMethodAndQuasicontinuumFracture/assets/75973860/305ccc0f-a7d1-4e09-a64d-3674ced0e3bc
 
 (I haven't done improvements for the convergence of hyperelasticity, so I did not use a 3D geometry. At the end of the compression case, the solver diverges due to the ill mesh.)
 
@@ -65,6 +67,7 @@ A 2D (plane stress) semicircle with a radius of 20, whose hat (height=5) is cut 
 
 I implemented a dynamic solver using the algorithm described in *Nonlinear Finite Elements for Continua and Structures* by Ted Belytschko. Here, I show the dynamic response (stress, velocity, and acceleration fields) of the above semicircle at the beginning of loading, assuming neo-Hookean hyperelasticity. The `.inp` file is `source/Semisphere2D.inp` and the config file is `configs/Semisphere2D-dynamic-neoHookean.mat`.
 
+https://github.com/LuoXueling/FiniteElementMethodAndQuasicontinuumFracture/assets/75973860/9d93805f-4c81-4456-a444-541275f862f6
 
 ## QC (+ fracture)
 
