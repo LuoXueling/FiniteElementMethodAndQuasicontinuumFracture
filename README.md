@@ -56,9 +56,12 @@ A 2D (plane stress) semicircle with a radius of 20, whose hat (height=5) is cut 
 
 <image src=".assets/Semisphere2D.png" width="40%"></image>
 
-https://github.com/LuoXueling/FiniteElementMethodAndQuasicontinuumFracture/assets/75973860/f0afec5e-5e20-413a-9461-a51e7b2e2013
 
-https://github.com/LuoXueling/FiniteElementMethodAndQuasicontinuumFracture/assets/75973860/305ccc0f-a7d1-4e09-a64d-3674ced0e3bc
+https://github.com/LuoXueling/FiniteElementMethodAndQuasicontinuumFracture/assets/75973860/360b5d18-80bb-4498-8f74-94cee31df3f4
+
+
+https://github.com/LuoXueling/FiniteElementMethodAndQuasicontinuumFracture/assets/75973860/18305bde-9ec5-43a8-8116-fb94f9ece20d
+
 
 (I haven't done improvements for the convergence of hyperelasticity, so I did not use a 3D geometry. At the end of the compression case, the solver diverges due to the ill mesh.)
 
@@ -67,7 +70,8 @@ https://github.com/LuoXueling/FiniteElementMethodAndQuasicontinuumFracture/asset
 
 I implemented a dynamic solver using the algorithm described in *Nonlinear Finite Elements for Continua and Structures* by Ted Belytschko. Here, I show the dynamic response (stress, velocity, and acceleration fields) of the above semicircle at the beginning of loading, assuming neo-Hookean hyperelasticity. The `.inp` file is `source/Semisphere2D.inp` and the config file is `configs/Semisphere2D-dynamic-neoHookean.mat`.
 
-https://github.com/LuoXueling/FiniteElementMethodAndQuasicontinuumFracture/assets/75973860/9d93805f-4c81-4456-a444-541275f862f6
+https://github.com/LuoXueling/FiniteElementMethodAndQuasicontinuumFracture/assets/75973860/942d76a6-b3cd-41ba-9ad3-8b9c701e14a2
+
 
 ## QC (+ fracture)
 
